@@ -1,0 +1,60 @@
+Hangman Rules (copyable text)
+
+Objective:
+Guess the hidden word before the hangman drawing is completed.
+
+Setup:
+
+1. One player thinks of a word and keeps it secret.
+2. They draw a blank line (_) for each letter in the word.
+   Example:
+   Word: APPLE
+   Display: _ _ _ _ _
+
+How to Play:
+
+1. The guessing player chooses one letter.
+2. If the letter is in the word:
+
+   * Reveal every occurrence of that letter in the correct positions.
+3. If the letter is not in the word:
+
+   * Add one part to the hangman drawing.
+4. Continue guessing letters until the word is guessed or the drawing is completed.
+
+Typical Hangman Drawing Order:
+
+1. Head
+2. Body
+3. Left arm
+4. Right arm
+5. Left leg
+6. Right leg
+
+Winning:
+
+* The guesser wins if they reveal all the letters before the hangman is completed.
+* The host wins if the hangman is completed before the word is guessed.
+
+Optional Rule:
+
+* A player may try to guess the entire word instead of a single letter on their turn.
+
+Example:
+Secret word: CAT
+
+Start:
+
+---
+
+Guess A:
+_ A _
+
+Guess C:
+C A _
+
+Guess T:
+C A T
+
+Result:
+The guesser wins.
