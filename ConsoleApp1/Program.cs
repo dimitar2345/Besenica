@@ -48,6 +48,13 @@ namespace MyApp
         }
         static void PrintHistory()
         {
+            if(histories.Count()==0||histories == null)
+            {
+                Console.WriteLine("The history is empthy");
+                Console.WriteLine("Press enter to continiue...");
+                Console.ReadLine();
+                return;
+            }
             int gameCount = 1;
 
             foreach (var temp in histories)
