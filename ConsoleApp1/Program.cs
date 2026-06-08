@@ -48,7 +48,7 @@ namespace MyApp
         }
         static void PrintHistory()
         {
-            if(histories.Count()==0||histories == null)
+            if(histories.Count()<=0||histories == null)
             {
                 Console.WriteLine("The history is empthy");
                 Console.WriteLine("Press enter to continiue...");
